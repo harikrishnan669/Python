@@ -18,3 +18,4 @@ axis[0].set_title("Sine function")
 axis[1].plot(x,z)
 axis[1].set_title("Cosine function")
 plt.show
+
