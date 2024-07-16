@@ -1,9 +1,9 @@
 #__init__ method is to initialize (or assign values) the data members of a class when an object of that class is created
 # “self” is used to access and manipulate the instance variables and methods within a class.
 class students:
-  year=2020
+  year=2020     #static keyword
   def __init__(self,name,age,branch):
-    self.name=name
+    self.name=name              # self will give the instances and get the values of each
     self.age=age
     self.branch=branch
 
