@@ -2,7 +2,7 @@
 # “self” is used to access and manipulate the instance variables and methods within a class.
 class students:
   year=2020     #static keyword
-  def __init__(self,name,age,branch):
+  def __init__(self,name,age,branch):      # defining a constructor
     self.name=name              # self will give the instances and get the values of each
     self.age=age
     self.branch=branch
