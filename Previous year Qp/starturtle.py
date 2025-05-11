@@ -5,6 +5,7 @@ screen.bgcolor("white")
 
 star=turtle.Turtle()
 star.color("black")
+star.home()
 star.pensize(2)
 star.speed(2)
 
